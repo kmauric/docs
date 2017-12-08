@@ -64,7 +64,7 @@ Support for Amazon S3, Rackspace Cloud Files, and Google Cloud Storage have been
 
 ### Config Settings
 
-The following config settings have been deprecated, and will be removed in Craft 4:
+The following config settings have been deprecated, and will be removed in Craft 3:
 
 File          | Old Setting                  | New Setting
 ------------- | ---------------------------- | -----------------------------
@@ -80,7 +80,7 @@ File          | Old Setting                  | New Setting
 
 *<sup>2</sup> `defaultFileMode` is now `null` by default, meaning it will be determined by the current environment.*
 
-*<sup>3</sup> `securityKey` is no longer optional. If you haven’t set it yet, set it to the value in `storage/runtime/validation.key` (if the file exists). The auto-generated `validation.key` file fallback will be removed in Craft 4.*
+*<sup>3</sup> `securityKey` is no longer optional. If you haven’t set it yet, set it to the value in `storage/runtime/validation.key` (if the file exists). The auto-generated `validation.key` file fallback will be removed in Craft 3.*
 
 The following config settings have been removed entirely:
 
@@ -157,7 +157,7 @@ If you have any URL rules saved in `config/routes.php`, you will need to update 
 
 ## PHP Constants
 
-The following PHP constants have been deprecated, and will no longer be supported in Craft 4:
+The following PHP constants have been deprecated, and will no longer be supported in Craft 3:
 
 Old              | New
 ---------------- | ----------------------------------------
@@ -254,7 +254,7 @@ Old                 | New
 ------------------- | -----------------------------------------
 `{% endpaginate %}` | *(no replacement needed; just delete it)*
 
-The following Twig template tags have been deprecated, and will be removed in Craft 4:
+The following Twig template tags have been deprecated, and will be removed in Craft 3:
 
 Old                             | New
 ------------------------------- | ---------------------------------------------
@@ -285,7 +285,7 @@ Old                                         | New
 
 *<sup>1</sup> Only available if the `queue` component implements `craft\queue\QueueInterface`.*
 
-The following template functions have been deprecated, and will be removed in Craft 4:
+The following template functions have been deprecated, and will be removed in Craft 3:
 
 Old                                                     | New
 ------------------------------------------------------- | ---------------------------------------------
@@ -462,7 +462,7 @@ Tag          | `setId`            | `groupId`
 Tag          | `set`              | `group`
 Tag          | `orderBy:"name"`   | `orderBy:"title"`
 
-The following params are now deprecated, and will be removed in Craft 4:
+The following params are now deprecated, and will be removed in Craft 3:
 
 Element Type | Old Param                | New Param
 ------------ | ------------------------ | ----------------------------
@@ -484,7 +484,7 @@ Old                           | New
 ----------------------------- | -------------
 `findElementAtOffset(offset)` | `nth(offset)`
 
-The following methods are now deprecated, and will be removed in Craft 4:
+The following methods are now deprecated, and will be removed in Craft 3:
 
 Old             | New
 --------------- | --------------------------------------------------------
@@ -504,7 +504,7 @@ Element Type | Old Property | New Property
 ------------ | ------------ | ------------
 Tag          | `name`       | `title`
 
-The following element properties have been deprecated, and will be removed in Craft 4:
+The following element properties have been deprecated, and will be removed in Craft 3:
 
 Old      | New
 -------- | -------------------------------------------
@@ -512,7 +512,7 @@ Old      | New
 
 ## Models
 
-The following model methods have been deprecated, and will be removed in Craft 4:
+The following model methods have been deprecated, and will be removed in Craft 3:
 
 Old                 | New
 ------------------- | ------------------------
@@ -520,7 +520,7 @@ Old                 | New
 
 ## Locales
 
-The following locale methods have been deprecated, and will be removed in Craft 4:
+The following locale methods have been deprecated, and will be removed in Craft 3:
 
 Old                | New
 ------------------ | ------------------------------------
